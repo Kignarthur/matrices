@@ -10,4 +10,14 @@ function checkSum()
     println("End")
 end
 
+function matrixSum(matrix)
+    sum = 0
+
+    for i in 1 : length(matrix)
+        sum += matrix[i]
+    end
+
+    return sum
+end
+
 checkSum()
